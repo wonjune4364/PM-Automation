@@ -1,0 +1,355 @@
+{
+  "timestamp": "2026-04-04T09:46:07.686Z",
+  "reason": "compaction",
+  "status": {
+    "version": "2.0",
+    "lastUpdated": "2026-04-04T09:21:12.946Z",
+    "activeFeatures": [
+      "PM-Automation",
+      "home",
+      "save",
+      "prompt",
+      "prd",
+      "trd",
+      "ia",
+      "usecases",
+      "design"
+    ],
+    "primaryFeature": "PM-Automation",
+    "features": {
+      "PM-Automation": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-04-04T09:02:13.050Z",
+          "lastUpdated": "2026-04-04T09:18:50.574Z"
+        },
+        "lastFile": "/Users/chowonjune/Documents/BJI/프로젝트/PM Automation/PM-Automation/src/hooks/useDraftStorage.ts"
+      },
+      "home": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-04-04T09:02:28.022Z",
+          "lastUpdated": "2026-04-04T09:16:24.142Z"
+        },
+        "lastFile": "/Users/chowonjune/Documents/BJI/프로젝트/PM Automation/PM-Automation/src/features/home/components/ToolsSection.tsx"
+      },
+      "save": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-04-04T09:02:59.439Z",
+          "lastUpdated": "2026-04-04T09:02:59.439Z"
+        },
+        "lastFile": "/Users/chowonjune/Documents/BJI/프로젝트/PM Automation/PM-Automation/src/app/api/bkit/save/route.ts"
+      },
+      "prompt": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-04-04T09:03:47.250Z",
+          "lastUpdated": "2026-04-04T09:18:31.216Z"
+        },
+        "lastFile": "/Users/chowonjune/Documents/BJI/프로젝트/PM Automation/PM-Automation/src/components/prompt/PromptGeneratorLayout.tsx"
+      },
+      "prd": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-04-04T09:04:01.840Z",
+          "lastUpdated": "2026-04-04T09:19:25.580Z"
+        },
+        "lastFile": "/Users/chowonjune/Documents/BJI/프로젝트/PM Automation/PM-Automation/src/features/prd/components/PRDForm.tsx"
+      },
+      "trd": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-04-04T09:04:06.797Z",
+          "lastUpdated": "2026-04-04T09:19:58.848Z"
+        },
+        "lastFile": "/Users/chowonjune/Documents/BJI/프로젝트/PM Automation/PM-Automation/src/features/trd/components/TRDForm.tsx"
+      },
+      "ia": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-04-04T09:04:17.623Z",
+          "lastUpdated": "2026-04-04T09:20:21.903Z"
+        },
+        "lastFile": "/Users/chowonjune/Documents/BJI/프로젝트/PM Automation/PM-Automation/src/features/ia/components/IAForm.tsx"
+      },
+      "usecases": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-04-04T09:04:22.979Z",
+          "lastUpdated": "2026-04-04T09:20:44.774Z"
+        },
+        "lastFile": "/Users/chowonjune/Documents/BJI/프로젝트/PM Automation/PM-Automation/src/features/usecases/components/UsecaseForm.tsx"
+      },
+      "design": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-04-04T09:04:27.461Z",
+          "lastUpdated": "2026-04-04T09:21:12.946Z"
+        },
+        "lastFile": "/Users/chowonjune/Documents/BJI/프로젝트/PM Automation/PM-Automation/src/features/design/components/DesignForm.tsx"
+      }
+    },
+    "pipeline": {
+      "currentPhase": 1,
+      "level": "Dynamic",
+      "phaseHistory": []
+    },
+    "session": {
+      "startedAt": "2026-04-04T08:15:55.807Z",
+      "onboardingCompleted": false,
+      "lastActivity": "2026-04-04T09:21:12.946Z"
+    },
+    "history": [
+      {
+        "timestamp": "2026-04-04T09:02:13.050Z",
+        "feature": "PM-Automation",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:02:18.199Z",
+        "feature": "PM-Automation",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:02:23.174Z",
+        "feature": "PM-Automation",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:02:28.022Z",
+        "feature": "home",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:02:59.439Z",
+        "feature": "save",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:03:47.250Z",
+        "feature": "prompt",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:04:01.840Z",
+        "feature": "prd",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:04:06.797Z",
+        "feature": "trd",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:04:17.623Z",
+        "feature": "ia",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:04:22.979Z",
+        "feature": "usecases",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:04:27.461Z",
+        "feature": "design",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:15:13.330Z",
+        "feature": "usecases",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:15:29.402Z",
+        "feature": "usecases",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:15:41.558Z",
+        "feature": "usecases",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:15:52.915Z",
+        "feature": "usecases",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:16:24.142Z",
+        "feature": "home",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:16:38.680Z",
+        "feature": "PM-Automation",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:16:54.273Z",
+        "feature": "PM-Automation",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:17:05.287Z",
+        "feature": "prompt",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:17:13.084Z",
+        "feature": "prompt",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:17:17.994Z",
+        "feature": "prompt",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:17:24.140Z",
+        "feature": "prompt",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:17:41.542Z",
+        "feature": "ia",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:17:56.582Z",
+        "feature": "usecases",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:18:14.631Z",
+        "feature": "design",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:18:21.217Z",
+        "feature": "prompt",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:18:26.404Z",
+        "feature": "prompt",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:18:31.216Z",
+        "feature": "prompt",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:18:50.574Z",
+        "feature": "PM-Automation",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:19:25.580Z",
+        "feature": "prd",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:19:58.848Z",
+        "feature": "trd",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:20:21.903Z",
+        "feature": "ia",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:20:44.774Z",
+        "feature": "usecases",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-04T09:21:12.946Z",
+        "feature": "design",
+        "phase": "do",
+        "action": "updated"
+      }
+    ]
+  }
+}

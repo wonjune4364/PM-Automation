@@ -28,6 +28,126 @@ npm run start     # Start production server
 - `src/lib/` - Utility functions
 - `src/third-parties/` - Third-party integrations (AdSense)
 
+### File Structure
+
+```
+src/
+├── app/
+│   ├── (tools)/
+│   │   ├── (cursor)/
+│   │   │   ├── design/page.tsx
+│   │   │   ├── ia/page.tsx
+│   │   │   ├── prd/page.tsx
+│   │   │   ├── trd/page.tsx
+│   │   │   └── usecases/page.tsx
+│   │   └── dev/
+│   │       ├── generate-color-palette/page.tsx
+│   │       ├── spoid-image-color/page.tsx
+│   │       └── table-to-json/page.tsx
+│   ├── api/
+│   │   └── subscribe/route.ts
+│   ├── open-source-license/
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── privacy-policy/page.tsx
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── providers.tsx
+├── components/
+│   ├── open-source-license/
+│   │   ├── LicenseDocument.tsx
+│   │   ├── LicenseTable.tsx
+│   │   └── PackageJsonForm.tsx
+│   ├── prompt/
+│   │   └── PromptGeneratorLayout.tsx
+│   ├── ui/
+│   │   ├── avatar.tsx
+│   │   ├── badge.tsx
+│   │   ├── button.tsx
+│   │   ├── calendar.tsx
+│   │   ├── card.tsx
+│   │   ├── checkbox.tsx
+│   │   ├── dialog.tsx
+│   │   ├── dropdown-menu.tsx
+│   │   ├── file-upload.tsx
+│   │   ├── input.tsx
+│   │   ├── label.tsx
+│   │   ├── popover.tsx
+│   │   ├── radio-group.tsx
+│   │   ├── select.tsx
+│   │   ├── separator.tsx
+│   │   ├── sheet.tsx
+│   │   ├── table.tsx
+│   │   ├── tabs.tsx
+│   │   ├── textarea.tsx
+│   │   ├── toast.tsx
+│   │   ├── toaster.tsx
+│   │   └── use-toast.ts
+│   ├── Footer.tsx
+│   ├── Header.tsx
+│   ├── Markdown.tsx
+│   └── PageHeader.tsx
+├── features/
+│   ├── design/
+│   │   ├── components/DesignForm.tsx
+│   │   ├── lib/generatePrompt.ts
+│   │   ├── page.tsx
+│   │   └── types.ts
+│   ├── generate-color-palette/
+│   │   ├── components/ColorPaletteGenerator.tsx
+│   │   ├── lib/colorUtils.ts
+│   │   ├── page.tsx
+│   │   └── types.ts
+│   ├── home/
+│   │   └── components/
+│   │       ├── HeroSection.tsx
+│   │       └── ToolsSection.tsx
+│   ├── ia/
+│   │   ├── components/IAForm.tsx
+│   │   ├── lib/generatePrompt.ts
+│   │   ├── page.tsx
+│   │   └── types.ts
+│   ├── prd/
+│   │   ├── components/PRDForm.tsx
+│   │   ├── lib/generatePrompt.ts
+│   │   ├── page.tsx
+│   │   └── types.ts
+│   ├── privacy-policy/
+│   │   ├── components/PrivacyPolicyForm.tsx
+│   │   ├── lib/generatePrivacyPolicy.ts
+│   │   ├── page.tsx
+│   │   └── types.ts
+│   ├── spoid-image-color/
+│   │   ├── ColorInfoDisplay.tsx
+│   │   ├── ImageColorPicker.tsx
+│   │   ├── page.tsx
+│   │   └── types.ts
+│   ├── table-to-json/
+│   │   ├── TableToJsonConverter.tsx
+│   │   └── page.tsx
+│   ├── trd/
+│   │   ├── components/TRDForm.tsx
+│   │   ├── lib/generatePrompt.ts
+│   │   ├── page.tsx
+│   │   └── types.ts
+│   └── usecases/
+│       ├── components/UsecaseForm.tsx
+│       ├── lib/generatePrompt.ts
+│       └── page.tsx
+├── lib/
+│   ├── googleSheets.ts
+│   ├── license-utils.ts
+│   ├── string.ts
+│   └── utils.ts
+├── third-parties/
+│   └── AdSense.tsx
+└── types/
+    ├── global.d.ts
+    ├── gtag.d.ts
+    └── license.ts
+```
+
 ### Feature Module Pattern
 
 Each feature in `src/features/` follows this structure:
